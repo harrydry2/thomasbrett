@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, main,
+menu, nav, output, ruby, section, summary,
+time, mark, audio {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/**
+ * HTML5 display-role reset for older browsers
+ */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section,
+main, summary {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+body, html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+video {
+  box-sizing: content-box !important; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  outline: none !important; }
+
+@font-face {
+  font-family: "Circular";
+  src: url(../fonts/../fonts/CircularStd-Book.woff);
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Circular";
+  src: url(../fonts/../fonts/CircularStd-Medium.woff);
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Circular";
+  src: url(../fonts/../fonts/CircularStd-Bold.woff);
+  font-weight: 600; }
+
+@font-face {
+  font-family: "Canela";
+  src: url(../fonts/../fonts/Canela-Bold.woff); }
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/../fonts/RobotoMono-Bold.woff);
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/../fonts/RobotoMono-Medium.woff);
+  font-weight: 400; }
+
+html, body {
+  font-family: "Circular";
+  font-size: 10px;
+  font-weight: 400;
+  color: #222222; }
+
+h1 {
+  font-family: "Canela";
+  font-size: 4.7rem; }
+  @media (max-width: 1180px) {
+    h1 {
+      font-size: 2.6rem; } }
+
+h2 {
+  font-family: "Canela";
+  font-size: 3.2rem;
+  color: #222222; }
+  @media (max-width: 800px) {
+    h2 {
+      font-size: 2.4rem;
+      line-height: 1.3; } }
+
+p {
+  font-size: 1.9rem;
+  line-height: 3.5rem; }
+  @media (max-width: 1180px) {
+    p {
+      font-size: 1.7rem;
+      line-height: 2.8rem; } }
+
+.randomSVG {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  display: inline; }
+  @media (max-width: 1180px) {
+    .randomSVG {
+      display: none; } }
+
