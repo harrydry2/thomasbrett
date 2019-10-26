@@ -157,7 +157,8 @@ h3 {
     cursor: pointer; }
 
 video {
-  width: 100%; }
+  width: 100%;
+  pointer-events: none; }
 
 img {
   width: 6.6rem;
