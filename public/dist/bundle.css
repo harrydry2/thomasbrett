@@ -66,6 +66,7 @@ video {
   outline: none !important; }
 
 html, body {
+  font-family: "Main";
   font-size: 10px;
   text-transform: uppercase;
   color: #000000; }
@@ -82,6 +83,7 @@ h1 {
       font-size: 2rem; } }
 
 h2 {
+  font-family: "Body";
   font-size: 3.4rem;
   text-align: center;
   line-height: 1.1; }
@@ -93,6 +95,7 @@ h2 {
       font-size: 1.6rem; } }
 
 h3 {
+  font-family: "Body";
   font-size: 2.6rem;
   line-height: 1.1; }
   h3:not(:first-child) {
@@ -113,6 +116,12 @@ h3 {
   height: 100vh;
   display: flex;
   align-items: center; }
+  .top__video {
+    position: relative; }
+  @media screen and (max-width: 500px) {
+    .top {
+      height: 30vh;
+      align-items: flex-start; } }
 
 .bottom {
   height: 100vh;
@@ -121,6 +130,9 @@ h3 {
   justify-content: center;
   position: relative;
   width: 100%; }
+  @media screen and (max-width: 500px) {
+    .bottom {
+      height: 70vh; } }
   .bottom__inner {
     cursor: pointer;
     display: flex;
@@ -150,14 +162,14 @@ video {
 img {
   width: 6.6rem;
   position: absolute;
-  right: 1.2rem;
+  right: 1.4rem;
   top: calc(50% - 3.3rem);
   cursor: pointer; }
   @media screen and (max-width: 500px) {
     img {
       width: 4rem;
       top: calc(50% - 2rem);
-      right: 0.8rem; } }
+      right: 1rem; } }
 
 .under {
   border-bottom: 1px solid #7678A1; }
