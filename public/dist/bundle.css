@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Main";
+  src: url(../fonts/../fonts/Main.woff) format("woff"); }
+
+@font-face {
+  font-family: "Body";
+  src: url(../fonts/../fonts/Body.woff) format("woff"); }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
