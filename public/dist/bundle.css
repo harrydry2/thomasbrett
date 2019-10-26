@@ -63,11 +63,25 @@ video {
 
 @font-face {
   font-family: "Body";
-  src: url(../fonts/../fonts/Body.woff);
+  src: url(../fonts/../fonts/Body.woff); }
+
+@font-face {
+  font-family: "Circular";
+  src: url(../fonts/../fonts/CircularStd-Book.woff);
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Circular";
+  src: url(../fonts/../fonts/CircularStd-Medium.woff);
   font-weight: 500; }
 
+@font-face {
+  font-family: "Circular";
+  src: url(../fonts/../fonts/CircularStd-Bold.woff);
+  font-weight: 600; }
+
 html, body {
-  font-family: "Main";
+  font-family: "Circular";
   font-size: 10px;
   text-transform: uppercase;
   color: #000000; }
@@ -84,7 +98,7 @@ h1 {
       font-size: 2rem; } }
 
 h2 {
-  font-family: "Body";
+  font-family: "Circular";
   font-size: 3.4rem;
   text-align: center;
   line-height: 1.1; }
@@ -96,7 +110,7 @@ h2 {
       font-size: 1.6rem; } }
 
 h3 {
-  font-family: "Body";
+  font-family: "Circular";
   font-size: 2.6rem;
   line-height: 1.1; }
   h3:not(:first-child) {
