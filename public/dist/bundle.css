@@ -81,6 +81,9 @@ h1 {
   @media screen and (max-width: 320px) {
     h1 {
       font-size: 2rem; } }
+  @media screen and (max-height: 414px) {
+    h1 {
+      font-size: 3.5rem; } }
 
 h2 {
   font-family: "Body";
@@ -93,6 +96,9 @@ h2 {
   @media screen and (max-width: 320px) {
     h2 {
       font-size: 1.6rem; } }
+  @media screen and (max-height: 414px) {
+    h2 {
+      font-size: 3rem; } }
 
 h3 {
   font-family: "Body";
@@ -111,6 +117,9 @@ h3 {
   @media screen and (max-width: 320px) {
     h3 {
       font-size: 1.6rem; } }
+  @media screen and (max-height: 414px) {
+    h3 {
+      font-size: 2rem; } }
 
 .top {
   height: 100vh;
@@ -171,6 +180,10 @@ img {
       width: 4rem;
       top: calc(50% - 2rem);
       right: 1rem; } }
+  @media screen and (max-height: 414px) {
+    img {
+      width: 5rem;
+      top: calc(50% - 2.5rem); } }
 
 .under {
   border-bottom: 1px solid #7678A1; }
@@ -196,4 +209,17 @@ a {
   bottom: 1rem;
   right: 1rem;
   font-family: Helvetica, sans-serif; }
+  @media screen and (max-width: 500px) {
+    .copyright {
+      font-size: 0.8rem; } }
+  @media screen and (max-height: 414px) {
+    .copyright {
+      font-size: 0.8rem; } }
+
+.fadeOut {
+  transition: all 0.4s;
+  opacity: 0; }
+  .fadeOut:hover {
+    opacity: 1;
+    transition: all 0.4s; }
 

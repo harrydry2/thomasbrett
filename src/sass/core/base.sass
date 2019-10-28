@@ -12,6 +12,8 @@ h1
     font-size: 2.2rem
   @media screen and (max-width: 320px)
     font-size: 2rem
+  @media screen and (max-height: 414px)
+    font-size: 3.5rem
 
 h2
   font-family: "Body"
@@ -22,6 +24,8 @@ h2
     font-size: 2rem
   @media screen and (max-width: 320px)
     font-size: 1.6rem
+  @media screen and (max-height: 414px)
+    font-size: 3rem
 
 h3
   font-family: "Body"
@@ -37,6 +41,8 @@ h3
     font-size: 1.8rem
   @media screen and (max-width: 320px)
     font-size: 1.6rem
+  @media screen and (max-height: 414px)
+    font-size: 2rem
 
 .top
   height: 100vh
@@ -93,6 +99,9 @@ img
     width: 4rem
     top: calc(50% - 2rem)
     right: 1rem
+  @media screen and (max-height: 414px)
+    width: 5rem
+    top: calc(50% - 2.5rem)
 
 .under
   border-bottom: 1px solid $hover
@@ -119,3 +128,14 @@ a
   bottom: 1rem
   right: 1rem
   font-family: Helvetica, sans-serif
+  @media screen and (max-width: 500px)
+    font-size: 0.8rem
+  @media screen and (max-height: 414px)
+    font-size: 0.8rem
+
+.fadeOut
+  transition: all 0.5s
+  opacity: 0
+  &:hover
+    opacity: 1
+    transition: all 0.5s

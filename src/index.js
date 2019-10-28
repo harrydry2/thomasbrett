@@ -14,12 +14,18 @@ on.on('click', () => {
   on.classList.toggle('speakerNone');
   off.classList.toggle('speakerNone');
   video.muted = false;
+  setTimeout(() => {
+    off.classList.add('fadeOut');
+  }, 1200);
 });
 
 off.on('click', () => {
   on.classList.toggle('speakerNone');
   off.classList.toggle('speakerNone');
   video.muted = true;
+  // setTimeout(() => {
+  //   on.classList.add('fadeOut');
+  // }, 1200);
 });
 
 bottomOneInner.on('click', () => {
